@@ -10,9 +10,9 @@ import com.ps.dao.DaoException;
 import com.ps.dao.ProductDao;
 import com.ps.entity.Product;
 
-public class P02_AOPDemo {
+public class P02AOPDemo {
 	 static Logger logger 
-     = Logger.getLogger(P02_AOPDemo.class.getName()); 
+     = Logger.getLogger(P02AOPDemo.class.getName()); 
 	public static void main(String[] args) throws Exception {
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig4.class);
 		ProductDao dao = ctx.getBean("hibernateTemplateProductDao", ProductDao.class);

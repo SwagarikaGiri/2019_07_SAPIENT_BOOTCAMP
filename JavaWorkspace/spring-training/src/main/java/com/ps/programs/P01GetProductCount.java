@@ -6,7 +6,7 @@ import com.ps.cfg.AppConfig1;
 import com.ps.dao.DaoException;
 import com.ps.dao.ProductDao;
 
-public class P01_GetProductCount {
+public class P01GetProductCount {
 
 	public static void main(String[] args) throws DaoException {
 
